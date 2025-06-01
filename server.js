@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost/Cluster0';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost/cluster0';
 
 app.use(cors());
 app.use(express.json());
